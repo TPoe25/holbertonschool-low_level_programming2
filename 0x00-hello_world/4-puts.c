@@ -1,14 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
-	char str1[52];
-	 char str2[52];
+	puts("\"Programming is like building a multilingual puzzle\n");
 
-	 strcpy(str1, "Programming is like building a multilingual puzzle\n");
-
-	 puts(str1);
-	 return (0);
+	return (0);
 }
-\t
