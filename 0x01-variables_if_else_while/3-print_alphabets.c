@@ -1,10 +1,21 @@
 #include <stdio.h>
-
+/**
+ * main - entry point
+ *
+ * description: printing alphabet in lowercase then in uppercase,new line
+ *
+ * return - Always 0
+ */
 int main(void)
 {
-	for (int x = 'A'; int x <= 'Z'; x++)
-	{
-		putchar(tolower(x));
-	}
-	return 0;
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
+	for (x = 'A'; x <= 'Z'; x++)
+		putchar(x);
+
+	putchar('\n');
+
+	return (0);
 }
