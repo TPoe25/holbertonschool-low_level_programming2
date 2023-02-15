@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main- Entry point
+ * main - entry point
  *
- * description
+ * description; prints all single digit numbers base ten starting from zero
  *
- * Return- Always 0 (success)
+ * Return: Always 0
  */
 int main(void)
 {
