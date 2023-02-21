@@ -1,10 +1,10 @@
-#include <ctype.h>
+#include "main.h"
 #include <stdio.h>
-int main ()
+int _isupper(int c)
 {
-	char c;
-
-	c = 'C';
-	printf("Return %d", c, isupper(c));
-
-	c
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	return (0);
+}
